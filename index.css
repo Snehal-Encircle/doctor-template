@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* home */
+@layer base {
+  .black-text {
+    @apply text-29 lg:!text-5xl !leading-6 !font-bold mt-2 lg:!mt-5 text-black
+  }
+  h5 {
+    @apply !text-base lg:!text-lg !font-bold text-gray font-ubuntu
+  }
+  p {
+    @apply !font-roboto mt-2 lg:!mt-5
+  }
+  .container, .ms-row, .max-section, .t-grid, .counter-container, .work-layout {
+    @apply max-w-[1140px] mx-auto
+  }
+  .menu-inner li {
+      @apply space-y-5 mb-3
+  }
+  .menu-inner li a {
+      @apply text-white text-base hover:text-opacity-70
+  }
+  .banner-img {
+      @apply h-[558px] lg:h-[731px] bg-[url('https://img.freepik.com/premium-photo/close-up-doctor-front-bright-background_53419-4416.jpg?w=2000')] bg-center w-full object-cover bg-no-repeat
+  }
+  .trust {
+      @apply max-h-[348px]
+  }
+  a {
+      @apply hover:text-white
+  }
+  .facility-grid .grid {
+    @apply lg:max-w-[1140px] lg:mx-auto
+  }
+  .img-row img {
+    @apply rounded-50 w-full lg:w-[261px] lg:h-[222px] lg:mx-auto lg:my-0 object-cover
+  }
+  .accordion-button:after,.accordion-button:not(.collapsed):after {
+    content: '\271A';
+    position: absolute;
+    background-image: none;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .accordion-button:after,.accordion-button:not(.collapsed):after {
+    @apply mdscreen:right-[2px] right-[30px]
+  }
+
+  .collapse.show {
+    @apply visible block
+  }
+  .inside-list li::before {
+    @apply content-['\2010'] w-5 absolute left-[50px] transition
+  }
+}
