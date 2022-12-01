@@ -493,7 +493,8 @@ p {
 .banner-img {
   height: 558px;
   width: 100%;
-  background-image: url('https://img.freepik.com/premium-photo/close-up-doctor-front-bright-background_53419-4416.jpg?w=2000');
+  background-image: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/7aff7d62389d58eca002cca5/doctor-looking-information-database.jpg');
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   -o-object-fit: cover;
@@ -1114,10 +1115,6 @@ a:hover {
   padding: 15px;
 }
 
-.p-20px {
-  padding: 20px;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -1183,8 +1180,8 @@ a:hover {
   padding-top: 124.65%;
 }
 
-.pt-\[85\.05\%\] {
-  padding-top: 85.05%;
+.pt-\[64\.05\%\] {
+  padding-top: 64.05%;
 }
 
 .pb-5 {
@@ -1201,10 +1198,6 @@ a:hover {
 
 .pr-2 {
   padding-right: 0.5rem;
-}
-
-.pt-\[64\.05\%\] {
-  padding-top: 64.05%;
 }
 
 .text-left {
