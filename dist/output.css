@@ -1122,16 +1122,16 @@ a:hover {
   padding: 0.5rem;
 }
 
+.p-27px {
+  padding: 27px;
+}
+
 .p-30 {
   padding: 30px;
 }
 
 .p-3 {
   padding: 0.75rem;
-}
-
-.p-27px {
-  padding: 27px;
 }
 
 .py-4 {
@@ -1201,6 +1201,10 @@ a:hover {
 
 .pr-2 {
   padding-right: 0.5rem;
+}
+
+.pt-\[64\.05\%\] {
+  padding-top: 64.05%;
 }
 
 .text-left {
@@ -1282,6 +1286,10 @@ a:hover {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .leading-normal {
@@ -1754,8 +1762,20 @@ a:hover {
     margin-top: 0.5rem;
   }
 
+  .lgscreen\:flex {
+    display: flex;
+  }
+
   .lgscreen\:flex-col {
     flex-direction: column;
+  }
+
+  .lgscreen\:justify-center {
+    justify-content: center;
+  }
+
+  .lgscreen\:p-20px {
+    padding: 20px;
   }
 
   .lgscreen\:px-20px {
